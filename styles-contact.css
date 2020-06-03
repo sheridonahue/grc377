@@ -1,0 +1,142 @@
+/*This is my 377 FoCo Web Page Project using Eric Meyer's reset at the top of my page -- your CSS starts on line 56 */
+
+
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+/* ---------- This is the beginning of my 377 FoCo Web Page Project ------------ */
+
+html, body {
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  background-image: url("images/nyc-skyline.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+	
+	
+}
+
+.center {
+    width: 600px;
+	padding: 2%;
+    margin: 100px auto;
+	 background: rgba(139, 0, 86, 0.25);
+	text-align: center;
+	border: none;
+}
+   
+#logo {
+    margin-bottom: 16px;
+	border: none;
+	text-align: center;
+}
+
+h2 {
+	font-family: 'Helvetica', sans-serif;
+
+	font-size: 1.5em;
+	font-weight: 650;
+	font-stretch:;
+	line-height: 1.4;
+    color: #fff;
+    padding: 0px 0px;
+    margin: 0px auto 25px auto;
+}
+
+p {
+	font-family: 'Helvetica', sans-serif;
+	font-size: 1.2em;
+	font-weight: 100;
+    line-height: 1.6;
+	color: #fff;
+	background-color: rgba(139, 0, 86, 0.60);
+}
+{
+  margin: 0;
+  padding: 0;
+}
+ 
+nav {
+  margin: 25px;
+  background-color: rgba(139, 0, 86, 0.60)
+}
+
+ul {
+	overflow: auto;
+	list-style-type: none;
+}
+
+li {
+  height: 30px;
+  float: left;
+  margin-right: 10px;
+  border-right: 1px solid #aaa;
+  padding: 0 10px;
+}
+ 
+li:last-child {
+	border-right: none;
+}
+ 
+li a {
+  text-decoration: none;
+  color: lightgray;
+  font: 25px/1 Helvetica, sans-serif;
+}
+
+a:hover{
+	color: white;
+}
